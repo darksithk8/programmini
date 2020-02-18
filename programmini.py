@@ -107,7 +107,7 @@ class Firebird_database():
         #Usuwanie wszytkich calej tabeli:
         self.cur.execute("DROP TABLE XXX_LAB")
         self.conn.commit()
-F = Firebird_database('192.168.202.99', 3050, '/var/local/baza/RBB_SA.gdb', 'SYSDBA', 'masterkey')
+F = Firebird_database('xxx.xxx.xxx.xx', PORT, '/var/local/baza/XXX_XX.gdb', 'USER', 'Password')
 #F.INSERT()
 F.SELECT()
 #F.CREATETABLE()
